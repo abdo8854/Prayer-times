@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+      font-family: "Tajawal";
+   background: linear-gradient(45deg, #49a09d, #5f2c82);
+   height: 98vh;
+}
+.city-name{
+    text-align: center;
+    color: white;
+    font-size: 8rem;
+    font-weight: 500;
+    margin-top: 20px;
+}
+.contener{
+    color: whitesmoke;
+    text-align: center;
+    margin-top: 10px;
+}
+h6{
+    font-size: 30px;
+    margin: 10px;
+    font-weight: 200;
+}
+hr{
+   border-color: #5f2c82;
+    margin: 9px 50px;
+   
+}
+.prayer-times{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+.prayer-time{
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+    width: 150px;
+    height: 200px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+    cursor: pointer;
+    backdrop-filter: blur(10px);
+
+}
+.header{    
+    background: linear-gradient(45deg, #49a09d, #5f2c82);
+    color: wheat;
+
+}
+.prayer-time p{
+    text-align: center;
+    padding: 20px;
+    font-weight: 600;
+    font-size: 25px;
+    margin-top: 30px;
+}
+
+                                                    /* styles for custom select */
+.change-city{
+    text-align: center;
+    margin: auto ;
+    margin-top: 40px;
+}
+#city{
+    margin: 20px auto;
+    width: 200px;
+    position: relative;
+    text-align: center;
+    color: yellowgreen;
+    font-family: "Tajawal";
+    font-weight: 500;
+    font-size: 20px;
+    padding: 10px;
+    cursor: pointer;
+    border: 1px solid #aaa;
+    border-radius: 20px;
+}

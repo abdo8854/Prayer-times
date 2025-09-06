@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prayer Times</title>
+    <link rel="stylesheet" href="assets/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@200;300;400;500;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body dir="rtl">
+<!-- city name + data -->
+    <div class="contener">
+    <!-- city name -->
+    <h1 class="city-name">القاهره</h1>
+    <h6 id="date">الجمعه 25 نوفمبر</h6>
+
+    </div>
+    <hr>
+
+    <div class="prayer-times">
+        <div class="prayer-time">
+            <h2 class="header">الفجر</h2>
+            <p id="fajr">5:00 AM</p>
+        </div>
+        <div class="prayer-time">
+            <h2 class="header">الشروق</h2>
+            <p id="sunrise">6:30 AM</p>
+        </div>
+        <div class="prayer-time">
+            <h2 class="header">الظهر</h2>
+            <p id="dhuhr">12:00 PM</p>
+        </div>
+        <div class="prayer-time">
+             <h2 class="header">العصر</h2>   
+            <p id="asr">3:00 PM</p>
+        </div>
+        <div class="prayer-time">
+            <h2 class="header">المغرب</h2>
+            <p id="maghrib">5:30 PM</p>
+        </div>
+        <div class="prayer-time">
+            <h2 class="header">العشاء</h2>
+            <p id="isha">7:00 PM</p>
+        </div>
+
+    </div>  
+
+    <!-- end city name + data -->
+
+    <!-- change city select -->
+    <div class="change-city">
+        <select id="city">
+            <option value="Cairo">القاهره</option>
+            <option value="Alexandria">اسكندريه</option>
+            <option value="Giza">الجيزه</option>
+        </select>
+
+
+
+    <script src="node_modules/axios/dist/axios.min.js"></script>
+    <script src="assets/mine.js"></script>
+</body>
+</html>
